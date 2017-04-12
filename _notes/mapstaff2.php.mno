@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_histrecord" value="name:Sex;datatype:blob,name:Edu;datatype:blob,name:Language;datatype:blob,name:hdw_id;datatype:int,name:lat;datatype:blob,name:lng;datatype:blob,name:Cell;datatype:blob,name:Pic;datatype:blob,name:LastName;datatype:blob,name:Address;datatype:blob,name:Type;datatype:blob" />
+	<infoitem key="UD_filterhistrecord" value="name:TEST;datatype:blob,name:hdw_id;datatype:int,name:lat;datatype:blob,name:lng;datatype:blob,name:Pic;datatype:blob,name:LastName;datatype:blob,name:Address;datatype:blob,name:Type;datatype:blob" />
+</info>

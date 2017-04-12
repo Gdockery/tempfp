@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_riderecord" value="name:FirstName;datatype:blob,name:LastName;datatype:blob,name:Address;datatype:blob,name:Email;datatype:blob,name:Cell;datatype:blob" />
+</info>

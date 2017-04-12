@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="UI/images/apple-touch-icon.png" />
+<link href="UI/images/apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+<link href="UI/images/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+<title>SoROUTEiT - mobile </title>
+<link rel="stylesheet" href="UI/css/framework7.css">
+<link rel="stylesheet" href="UI/style.css">
+<link type="text/css" rel="stylesheet" href="UI/css/swipebox.css" />
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+ <script src="cordova.js"></script>
+</head>
+<body id="mobile_wrap">
+
+    <div class="statusbar-overlay"></div>
+
+    <div class="panel-overlay"></div>
+
+    <div class="panel panel-left panel-reveal">
+	<div class="view view-subnav">
+	<div class="pages">
+		<div data-page="panel-leftmenu" class="page pagepanel">	
+                     <div style="background-color: #FFF" class="page-content">
+			<nav  class="main-nav icons_31">
+			<ul>
+			<li><a href="#" class="close-panel" data-view=".view-main"><img src="UI/images/icons/black/search.png" alt="" title="" /><span>Filter Map View</span></a></li>
+			
+			</ul>
+           
+            
+         <div class="loginform">  
+            <p class="wizard-inner">Filter View</p>
+            <p><span class="wizard-inner">
+ 
+</span></p>
+<p><span class="wizard-inner">
+ 
+</span></p>
+<p><span id="Experiencediv"  class="wizard-inner">
+  
+</span></p>
+<div id="patientformdiv">
+<p><span class="wizard-inner">
+  
+</span></p>
+<div>
+
+</div>
+
+
+
+
+
+			</nav><p align="center"><span class="wizard-inner"> 
+                     </div>
+		</div>
+	  </div>
+	</div>  
+    </div>
+
+    <div class="panel panel-right panel-reveal">
+      <div class="user_login_info">
+	  
+                <div class="user_thumb">
+                <img src="UI/images/page_photo.jpg" alt="" title="" />
+                  <div class="user_details">
+                   <p>Welcome, <span>John Doe</span></p>
+                  </div>  
+                  <div class="user_avatar"><img src="UI/images/avatar.jpg" alt="" title="" /></div>       
+                </div>
+				
+                  <nav class="user-nav">
+                    <ul>
+                      <li><a href="#" data-popup=".popup-login" class="open-popup close-panel"><img src="UI/images/icons/black/settings.png" alt="" title="" /><span>Account Settings</span></a></li>
+                      <!---li><a href="#" class="close-panel"><img src="UI/images/icons/black/lock.png" alt="" title="" /><span>Logout</span></a></li--->
+                    </ul>
+                  </nav>
+      </div>
+    </div>
+
+    <div class="views">
+
+      <div class="view view-main">
+
+
+
+        <div class="pages">
+
+          <div data-page="index" class="page homepage">
+            <div class="page-content">
+			
+                        <div class="navbarpages blackbg">
+                            <div class="navbar_left">
+                                <div class="logo_text"><a href="#">SoROUTEiT.</a></div>
+                            </div>			
+                            <!--a href="#" data-panel="left" class="open-panel">
+                              <div class="navbar_right"><img src="UI/images/icons/black/menu.png" alt="" title="" /></div>
+                            </a>
+                            <a href="#" data-panel="right" class="open-panel">
+                                <div class="navbar_right graybg"><img src="UI/images/icons/black/user.png" alt="" title="" /></div>
+                            </a--->					
+                        </div>
+
+                  <!-- Slider -->
+                 <div class="swiper-container swiper-init" data-effect="slide" data-parallax="true" data-pagination=".swiper-pagination" data-paginationClickable="true">
+                    <div class="swiper-wrapper">
+                    
+                      <div onClick="gotorouteit()" class="swiper-slide" style="background-image:url(UI/images/slide1.jpg);">
+		     <div class="slider_trans">
+			 <div class="slider-caption">
+				  <h2 data-swiper-parallax="-100%"><!---img src="UI/images/routeimg.png" alt="" title="" /--->SoROUTEiT</h2>
+				  <span class="subtitle" data-swiper-parallax="-60%">Plan | Route |  Report</span>
+				  <p data-swiper-parallax="-30%">Routing Made Easy.</p>
+                  <!---p> <span>Your Device ID is: </span><span id="myUUID">42</span></p--->       </div>
+		               </div> 
+                       </div>
+                      
+      
+    	 
+                    <div class="swiper-pagination"></div>
+                  </div>
+			  
+		<!---ul id="navs" data-open="-" data-close="+">
+        <li><a href="#" onClick="initMap2();"><img src="UI/images/icons/black/geofence.png" alt="" title="" /></a></li>
+		  <li><a href="#" onClick="initMap2(0.015);"><img src="UI/images/icons/black/map.png" alt="" title="" /></a></li>
+		  <li><a href="#" id="nurseinfo" data-popup=".popup-nurse" class="open-popup"><img src="UI/images/icons/black/dr.png" alt="" title="" /></a></li>
+		  <li><a href="#" data-popup=".popup-patient" class="open-popup"><img src="UI/images/icons/black/patient.png" alt="" title="" /></a></li>
+		</ul---->	  
+			  
+			  
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+	
+    <!-- Login Popup -->
+    <div class="popup popup-login">
+        <div class="content-block">
+            <h4>LOGIN</h4>
+            <div class="loginform">
+                <!---form id="LoginForm" method="post"--->
+                    <input type="text" name="Email" id="Email"  value="" class="form_input required" placeholder="username" />
+                    <input type="password" name="Password" id="PW"   value="" class="form_input required" placeholder="password" />
+                    <div class="forgot_pass"><a href="#" data-popup=".popup-forgot" class="open-popup">Forgot Password?</a></div>
+                    <input type="submit" name="submits" class="form_submit" id="submits" value="SIGN IN" onClick="signin()" />
+                <!---/form--->
+                <div class="signup_bottom">
+                    <p>Don't have an account?</p>
+                    <a href="#" data-popup=".popup-signup" class="open-popup">SIGN UP</a>
+                </div>
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup"><img src="UI/images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Popup -->
+    <div class="popup popup-signup">
+        <div class="content-block">
+            <h4>REGISTER</h4>
+            <div class="loginform">
+                <!----form id="RegisterForm" method="post"---->
+                    <input type="text" name="Username" id="Username" value="" class="form_input required" placeholder="Email" />
+                    <input type="text"  id="Phone" name="Phone" value="" class="form_input required" placeholder="Phone" />
+                    <input type="Password" id="Password" name="Password" value="" class="form_input required" placeholder="Password" />
+                     <input type="text" class="form_input required" id="First_Name" placeholder="First Name" />
+                     <input type="text" class="form_input required" id="Last_Name" placeholder="Family" />
+                     <input type="text"  class="form_input required" name="Addressr" id="Addressr" placeholder="Address" onfocus="getthelocate()" />
+                    
+                    
+                    
+                    <input type="submit" name="submit" class="form_submit" id="submit" value="SIGN UP" onClick="regverify()" />
+                <!---/form--->
+		<h5>- OR REGISTER WITH A SOCIAL ACCOUNT -</h5>
+		<div class="signup_social">
+			<a href="https://www.facebook.com/" class="signup_facebook external">FACEBOOK</a>
+			<a href="https://www.twitter.com/" class="signup_twitter external">TWITTER</a>            
+		</div>		
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup"><img src="UI/images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div>
+	
+    <!-- Forgot Password Popup -->
+    <div class="popup popup-forgot">
+        <div class="content-block">
+            <h4>FORGOT PASSWORD</h4>
+            <div class="loginform">
+                <form id="ForgotForm" method="post">
+                    <input type="text" name="Email" name="Email2" value="" class="form_input required" placeholder="email" />
+                    <input type="submit" name="submit" class="form_submit" id="submit" value="RESEND PASSWORD" />
+                </form>
+                <div class="signup_bottom">
+                    <p>Check your email and follow the instructions to reset your password.</p>
+                </div>
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup"><img src="UI/images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div>
+	
+    <!-- Social Icons Popup -->
+    <div class="popup popup-social">
+    <div class="content-block">
+      <h4>Social Share</h4>
+      <p>Share icons solution that allows you share and increase your social popularity.</p>
+      <ul class="social_share">
+      <li><a href="https://twitter.com/" class="external"><img src="UI/images/icons/black/twitter.png" alt="" title="" /><span>TWITTER</span></a></li>
+      <li><a href="https://www.facebook.com/" class="external"><img src="UI/images/icons/black/facebook.png" alt="" title="" /><span>FACEBOOK</span></a></li>
+      <li><a href="https://plus.google.com" class="external"><img src="UI/images/icons/black/gplus.png" alt="" title="" /><span>GOOGLE</span></a></li>
+      <li><a href="https://www.dribbble.com/" class="external"><img src="UI/images/icons/black/dribbble.png" alt="" title="" /><span>DRIBBBLE</span></a></li>
+      <li><a href="https://www.linkedin.com/" class="external"><img src="UI/images/icons/black/linkedin.png" alt="" title="" /><span>LINKEDIN</span></a></li>
+      <li><a href="https://www.pinterest.com/" class="external"><img src="UI/images/icons/black/pinterest.png" alt="" title="" /><span>PINTEREST</span></a></li>
+      </ul>
+      <div class="close_popup_button"><a href="#" class="close-popup"><img src="UI/images/icons/black/menu_close.png" alt="" title="" /></a></div>
+    </div>
+    </div>
+    
+    
+    <!-- Patient Icons Popup -->
+    <div class="popup popup-patient">
+    <div class="content-block">
+      <h4>Add New Patient</h4>
+    <center>
+
+ <p>
+   <input type="text" id="First_Namep" name="Firs_tNamep" placeholder="First Name"  value="" class="formfield" />
+   <input type="text" id="Last_Namep" name="Last_Namep" placeholder="Last Name"  value="" class="formfield" />
+   
+   
+   <input type="text" id="Emailp" name="Email" placeholder="Email"  value="" class="formfield" />
+   
+   
+   <input type="text" id="Cellp" name="Cell" placeholder="Phone#"  value="" class="formfield" />
+   
+   <select name="Sex" id="Sexp" class="formfield">
+     <option value="Female">Select Sex</option>
+     <option value="Male">Male</option>
+     <option value="Female">Female</option>
+   </select>
+
+   
+   
+   <select name="Language" id="Languagep" class="formfield">
+     <option value="English">Select Language</option>
+     <option value="English">English</option>
+     <option value="Spanish">Spanish</option>
+   </select>
+   
+   <textarea name="Addressp"  class="formfield" id="Addressp" placeholder="Address"  onFocus="getthelocate()" ></textarea>
+   
+   <input type="text" id="Admit_Date" name="Admit_Date" placeholder="Admit Date"  value="" class="formfield" />
+
+<input type="text" id="Diagnosis" name="Diagnosis" placeholder="Diagnosis"  value="" class="formfield" />
+
+<input type="text" id="Discharge_Date" name="Discharge_Date" placeholder="Discharge Date Name"  value="" class="formfield" />
+
+
+
+<select name="Level_Care" id="Level_Care" class="formfield">
+                                <option value="1">Level_Care</option>
+ <option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+
+</select>  
+   
+   
+   <input onClick="profileverify(0)" type="submit" class="buttonWrap button button-green contactSubmitButton" id="" value="SUBMIT" data-formId="contactForm"/> 
+   
+ </p></center>
+
+
+      <div class="close_popup_button"><a href="#" class="close-popup"><img src="UI/images/icons/black/menu_close.png" alt="" title="" /></a></div>
+    </div>
+    </div>
+    
+    
+    
+  <!-- Nurse Icons Popup -->
+    <div class="popup popup-nurse">
+    <div class="content-block">
+      <h4>Add New Nurse</h4>
+    <center>
+
+ <p>
+   <input type="text" id="First_Namen" name="First_Name" placeholder="First Name"  value="" class="formfield" />
+                              
+                               
+                              <input type="text" id="Last_Namen" name="Last_Name" placeholder="Last Name"  value="" class="formfield" />
+                               
+                               
+                              <input type="text" id="Celln" name="Cell" placeholder="Phone#"  value="" class="formfield" />
+                              <input type="text" id="Emailn" name="Email" placeholder="Email"  value="" class="formfield" />
+                              <select name="Sex" id="Sexn" class="formfield">
+                                <option value="Female">Select Sex</option>
+ <option value="Male">Male</option>
+<option value="Female">Female</option>
+</select>
+                                                           
+                                <select name="ExperienceYears" id="ExperienceYearsn" class="formfield">
+                                <option value="1">Experience Years</option>
+ <option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select>  
+                                 
+                                     
+                                     
+ <select name="Language" id="Languagen" class="formfield">
+  <option value="English">Select Language</option>
+ <option value="English">English</option>
+<option value="Spanish">Spanish</option>
+</select>
+                                                                        
+<textarea name="Addressn" class="formfield" id="Addressn"  onFocus="getthelocate()" placeholder="Address"></textarea>
+
+              <select name="Edu" id="Edu" class="formfield">
+  <option value="Highschool">Select Edu</option>
+ <option value="Highschool">High School</option>
+<option value="College">College</option>
+</select>
+
+
+<input type="text" id="Hire_Daten" name="Hire_Date" placeholder="Admit Date"  value="" class="formfield" />
+
+
+ <input onClick="profileverify(1)" type="submit" class="buttonWrap button button-green contactSubmitButton" id="contactSubmitButton" value="SUBMIT" data-formId="contactForm"/> 
+ 
+  
+ </p></center>
+
+
+      <div class="close_popup_button"><a href="#" class="close-popup"><img src="UI/images/icons/black/menu_close.png" alt="" title="" /></a></div>
+    </div>
+    </div>   
+    
+    
+    
+<script type="text/javascript" src="UI/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="UI/js/jquery.validate.min.js" ></script>
+<script type="text/javascript" src="UI/js/framework7.js"></script>
+<script type="text/javascript" src="UI/js/jquery.swipebox.js"></script>
+<script type="text/javascript" src="UI/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="UI/js/email.js"></script>
+<script type="text/javascript" src="UI/js/circlemenu.js"></script>
+<script type="text/javascript" src="UI/js/audio.min.js"></script>
+<script type="text/javascript" src="UI/js/my-app.js"></script>
+<script type="text/javascript" src="dashboard.js"></script>
+<script src="UI/js/jquery.js"></script> 
+
+<script>
+
+
+function gotorouteit() { 
+
+window.open('https://otgplaya.com/route/index.html','_blank', 'location=no,clearsessioncache=yes'); 	
+
+}
+
+//----------------------autocomplete address------------------------
+
+</script>
+
+ <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL9iDV_Cpjroj86SVKLyAOAowvtkVxDMA&signed_in=true&amp;libraries=places"></script>
+        
+  </body>
+</html>

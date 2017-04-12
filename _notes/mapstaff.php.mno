@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_histrecord" value="name:TEST;datatype:blob,name:hdw_id;datatype:int,name:lat;datatype:blob,name:lng;datatype:blob,name:Pic;datatype:blob,name:Sex;datatype:blob,name:Pic;datatype:blob,name:Pic;datatype:blob,name:LastName;datatype:blob,name:Address;datatype:blob,name:Type;datatype:blob" />
+	<infoitem key="UD_filterhistrecord" value="name:TEST;datatype:blob,name:hdw_id;datatype:int,name:lat;datatype:blob,name:lng;datatype:blob,name:Pic;datatype:blob,name:LastName;datatype:blob,name:Address;datatype:blob,name:Type;datatype:blob" />
+	<infoitem key="UD_get_location" value="name:(CONCAT_WS(',',sarahmap.lat, sarahmap.lng));datatype:blob,name:lat;datatype:blob,name:lng;datatype:blob,name:LastName;datatype:blob,name:Type;datatype:blob" />
+</info>

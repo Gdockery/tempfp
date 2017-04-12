@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.sorouteit.key"
+    version   = "1.0.0">
+
+<name>sorouteit</name>
+
+<description>
+Route Planner and Reporting Tool.
+</description>
+
+<author href="https://otgplaya.com" email="modupe@visioninvent.com">
+Modupe Ajibola
+</author>
+
+    <preference name="permissions"                value="none"/>
+<icon src="images/logo.png" />
+<access origin="*" />
+<gap:plugin name="com.fantasyskiracer.inappbrowser" version="1.0.4" />
+    <gap:plugin name="org.apache.cordova.battery-status" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.console" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+<gap:plugin name="io.github.pwlin.cordova.plugins.fileopener" version="1.0.1" />
+<gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" version="1.0.11" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.media" />
+<gap:plugin name="com.jaeger.html5video" version="1.2.1" />
+<gap:plugin name="com.rb.cordova.video-helper" version="0.2.0" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+<gap:plugin name="com.surfernetwork.fileplugin" />
+
+    <access origin="*"/>
+</widget>
